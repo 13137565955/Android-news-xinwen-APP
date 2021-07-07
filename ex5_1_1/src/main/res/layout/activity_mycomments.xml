@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mycomments"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ex5_1_1.Mycomments">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ff3333"
+        android:text="我的跟帖"
+        android:textSize="40sp"
+        android:textColor="#f0f0f0"
+        android:gravity="center"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/comms"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="你还没有发表跟帖哦！"
+        android:textSize="30sp"
+        android:textColor="#3333ff"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

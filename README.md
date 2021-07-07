@@ -1,19 +1,5 @@
-# mall
+项目在ex5_1_1中
 
-## Project setup
-```
-npm install
-```
+app中不是完整的项目
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+如果新闻列表出不来  那就是接口不能用了  换一个即可

@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ex5_1_1.fragment.FirstFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="个性化头条不喜欢？"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_ooo"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:text="很抱歉给您带来不便，个性化头条还有不完善的地方，如果您不喜欢相关文章，请点击文章右下角的“x”并选择不感兴趣的原因，我们会努力继续优化的哦~“×”的位置如下图:"
+            android:textColor="#90000000"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:src="@drawable/ab"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageView"
+            />
+    </LinearLayout>
+
+</FrameLayout>

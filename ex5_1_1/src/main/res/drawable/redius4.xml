@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--自定义的控件圆角背景-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#4d94ff"/>
+    <padding android:top="10px" android:bottom="10px"/>
+    <corners android:radius="50px"/>
+    <stroke android:width="1px" android:color="#fff"/>
+</shape>
+    <!--corners 圆角
+
+    gradient 渐变
+
+    padding内容离边界距离
+
+    size　大小　
+
+    solid 　填充颜色
+
+    stroke描边-->

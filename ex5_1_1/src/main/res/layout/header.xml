@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="10dp"
+    android:background="#90ff0066"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="1431909656@hznu.edu.cn"
+        android:textColor="#9000"
+        android:textSize="20sp"
+        android:id="@+id/mail"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coder王菡"
+        android:textColor="#9000"
+        android:textSize="20sp"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/mail" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/iconImage"
+        android:src="@drawable/nav_icon"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/call"
+            android:icon="@drawable/nav_call"
+            android:title="其他页面"
+            ></item>
+        <item android:id="@+id/friends"
+            android:icon="@drawable/nav_friends"
+            android:title="我的跟帖"
+            ></item>
+        <item android:id="@+id/source"
+            android:icon="@drawable/fankui"
+            android:title="反馈页面"
+            ></item>
+        <item android:id="@+id/location"
+            android:icon="@drawable/nav_location"
+            android:title="退出登录"
+            ></item>
+    </group>
+</menu>

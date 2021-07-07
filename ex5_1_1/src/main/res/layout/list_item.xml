@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+        <TextView
+            android:id="@+id/EN"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="50dp"
+            android:text="反馈标题"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/Score"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="内容"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"/>
+
+</LinearLayout>

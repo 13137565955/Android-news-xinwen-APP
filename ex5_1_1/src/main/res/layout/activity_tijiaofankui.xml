@@ -1,0 +1,150 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:scrollbars="vertical">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="＜ "
+                android:textSize="35dp"
+                android:id="@+id/tv_back"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="新建反馈"
+                android:textSize="30dp"
+                android:id="@+id/tv_xx"
+                android:layout_marginLeft="65dp"
+                android:textColor="#000"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请选择反馈类别："
+                    android:textSize="16sp"
+                    android:textColor="@color/colorBlack"/>
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/languages"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="反馈标题："
+                    android:textSize="16sp"
+                    android:textColor="@color/colorBlack"/>
+
+                <EditText
+                    android:id="@+id/et_cn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入反馈标题"
+                    android:textColor="@color/colorBlack"/>
+            </LinearLayout>
+        </LinearLayout>
+        <EditText
+            android:id="@+id/et_sc"
+            android:gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="请输入您的反馈意见(字数500以内)！"
+            android:textColor="@color/colorBlack"/>
+        <Button
+            android:id="@+id/bt_insert"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:text="提交反馈"
+            android:layout_gravity="center"
+            android:background="@drawable/redius3"
+            android:onClick="intoScores"
+            />
+        <TextView android:text="下面是常见问题"
+            android:paddingTop="30dp"
+            android:id="@+id/help_allseequestions"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:textColor="#000000"
+            android:layout_marginTop="10px"
+            android:layout_height="wrap_content"></TextView>
+        <TextView android:layout_marginTop="10px"
+            android:paddingLeft="15px"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Q:积分怎么样获得,有什么好处？ \n A:在回答问题正确后，获取积分，积分代表你当前回答问题的能力水平."
+            android:layout_width="fill_parent"
+            android:id="@+id/help_1"></TextView>
+
+        <TextView android:layout_marginTop="10px"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingLeft="15px"
+            android:text="Q:重新做练习主题，是否可以更新积分? \n A:可以,积分去当前最高分"
+            android:layout_width="fill_parent"
+            android:id="@+id/help_2"
+
+            ></TextView>
+
+        <TextView android:layout_marginTop="10px"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingLeft="15px"
+            android:text="Q:未做结束后的主题退出后，是否可以重新做? \n A:可以继续重新做，且上次的测试时间保留."
+            android:layout_width="fill_parent"
+            android:id="@+id/help_3"
+
+            ></TextView>
+
+        <TextView android:layout_marginTop="10px"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingLeft="15px"
+            android:text="Q:已经做完的测试主题是否可以再做? \n A:不可以."
+            android:layout_width="fill_parent"
+            android:id="@+id/help_4"
+
+            ></TextView>
+        <TextView android:layout_marginTop="10px"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:paddingLeft="15px"
+            android:text="Q:回答问题，获得积分的规则 \n A:用时低于60s ,获得100分 ；用时大于60秒，获得100*(60/用时)"
+            android:layout_width="fill_parent"
+            android:id="@+id/help_5"></TextView>
+
+    </LinearLayout>
+</ScrollView>
